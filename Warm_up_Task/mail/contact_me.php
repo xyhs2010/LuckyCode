@@ -15,9 +15,9 @@ $message = $_POST['message'];
 	
 // Create the email and send the message
 $to = 'alijiabin@qq.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "来自幸运事项访客: $name 的邮件";
-$email_body = "你收到了一条来自幸运事项的消息：\n"."Name: $name\nEmail: $email_address\nMessage:\n$message";
-$headers = "From: noreply@luckydone.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$email_subject = "来自幸运代码访客: $name 的邮件";
+$email_body = "你收到了一条来自幸运代码的消息：\n"."Name: $name\nEmail: $email_address\nMessage:\n$message";
+$headers = "From: noreply@luckycode.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
