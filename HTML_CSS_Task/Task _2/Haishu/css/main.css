@@ -4,7 +4,9 @@ html {
 }
 
 body {
-    margin: 0 5rem;
+    min-width: 40rem;
+    margin: 0 auto;
+    background-color: #e0e0e0;
 }
 
 /* header */
@@ -42,8 +44,8 @@ header a:visited {
 
 /* main */
 main {
-    background-color: #e0e0e0;
-    margin: 0;
+    max-width: 80rem;
+    margin: 0 auto;
     overflow: scroll;
 }
 
