@@ -65,7 +65,7 @@ header #date {
 }
 
 #smryGrp {
-    margin: 30px 44px 0 19px;
+    margin: 30px 44px 0 24px;
     width: 203px;
     height: 300px;
     border: solid #cc8091;
@@ -257,7 +257,7 @@ article .content::first-letter {
     display: inline-block;
     vertical-align: top;
     width: 458px;
-    margin: 40px 44px 0 14px;
+    margin: 40px 44px 0 19px;
 }
 
 #imgGrp2 {
