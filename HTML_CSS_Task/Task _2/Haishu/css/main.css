@@ -1,0 +1,165 @@
+html {
+    font-size: 16px;
+    font-family: "Microsoft YaHei", 微软雅黑, SansSerif;
+}
+
+body {
+    min-width: 40rem;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+}
+
+/* header */
+header {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header img {
+    height: 3.5rem;
+    margin-left: 1rem;
+}
+
+header li {
+    margin-right: 1.2rem;
+    float: left;
+}
+
+header ul {
+    float: right;
+    padding: 0;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+header a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #acb6c0;
+}
+
+/* main */
+main {
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+main article {
+    margin: 1.2rem;
+    padding: 1.2rem;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 2px #707070;
+}
+
+main h3 {
+    color: #555555;
+}
+
+main address {
+    color: #555555;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+#sec1 p, #sec2 p {
+    text-indent: 2rem;
+}
+
+#sec2 li {
+    list-style-type: none;
+}
+
+.imgSec {
+    width: 10rem;
+    border: 1px solid;
+    margin: 1rem;
+}
+
+.imgSec p {
+    text-align: center;
+}
+
+.imgSec img {
+    width: 100%;
+}
+
+#sec4 table {
+    width: 100%;
+}
+
+#sec4 table, th, tr, td {
+    border: 1px solid #7b8a8b;
+    border-collapse: collapse;
+}
+
+#sec4 th {
+    color: #ffffff;
+    background-color: #404040;
+}
+
+#sumUp {
+    background-color: #7b8a8b;
+    font-weight: bold;
+}
+
+aside {
+    margin: 0.5rem 2rem 3rem;
+}
+
+aside form {
+    overflow: scroll;
+}
+
+.formGrp {
+    margin: 1rem;
+}
+
+.formLabel {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2px;
+}
+
+.formContent {
+    display: inline-block;
+    text-align: left;
+}
+
+.formContent * {
+    margin-top: 0;
+}
+
+.formExp {
+    font-size: 0.8rem;
+    color: #777777;
+}
+
+aside textarea {
+    width: 30rem;
+}
+
+aside button[type="submit"] {
+    border-style: none;
+    border-radius: 6px;
+    background-color: #314dbb;
+    color: #d7d7d7;
+    margin: 0 3%;
+    width: 94%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #1a242f;
+    color: #acb6c0;
+    text-align: center;
+    font-size: small;
+    padding: 1rem;
+}

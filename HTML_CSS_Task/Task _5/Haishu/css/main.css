@@ -1,0 +1,183 @@
+html {
+    font-size: 16px;
+    font-family: "Microsoft YaHei", 微软雅黑, SansSerif;
+}
+
+body {
+    min-width: 40rem;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* main */
+main {
+    background-color: #e0e0e0;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* header */
+header {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header img {
+    height: 3.5rem;
+    margin-left: 1rem;
+}
+
+header li {
+    margin-right: 1.2rem;
+    display: inline;
+}
+
+header ul {
+    float: right;
+    padding: 0;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+header a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #7b8a8b;
+}
+
+.container {
+    width: 100%;
+    float: left;
+}
+
+main aside {
+    width: 18.6rem;
+    padding: 1.2rem;
+    font-size: smaller;
+    float: left;
+    margin: 1.2rem 2rem 3rem -23rem;
+}
+
+main article {
+    padding: 1.2rem;
+    margin: 1.2rem 25rem 1.2rem 1.2rem;
+}
+
+main article, aside {
+    background-color: #ffffff;
+    box-shadow: 3px 3px 2px #707070;
+}
+
+main h3 {
+    color: #555555;
+}
+
+main address {
+    color: #555555;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+#sec1 p, #sec2 p {
+    text-indent: 2rem;
+}
+
+#sec2 li {
+    list-style-type: none;
+}
+
+.imgSec {
+    width: 10rem;
+    border: 1px solid;
+    margin: 1rem;
+    display: inline-block;
+}
+
+.imgSec p {
+    text-align: center;
+}
+
+.imgSec img {
+    width: 100%;
+}
+
+#sec4 table {
+    width: 100%;
+}
+
+#sec4 table, th, tr, td {
+    border: 1px solid #7b8a8b;
+    border-collapse: collapse;
+}
+
+#sec4 th {
+    color: #ffffff;
+    background-color: #404040;
+}
+
+#sumUp {
+    background-color: #7b8a8b;
+    font-weight: bold;
+}
+
+aside form {
+    overflow: scroll;
+}
+
+.formGrp {
+    margin: 1rem 0;
+}
+
+.formLabel {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2px;
+}
+
+.formContent {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+.formContent * {
+    margin-top: 0;
+}
+
+.formExp {
+    font-size: 0.8rem;
+    color: #777777;
+}
+
+aside textarea {
+    width: 10rem;
+}
+
+aside button[type="submit"] {
+    border-style: none;
+    border-radius: 6px;
+    background-color: #314dbb;
+    color: #d7d7d7;
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 10%;
+}
+
+footer {
+    background-color: #1a242f;
+    color: #acb6c0;
+    text-align: center;
+    font-size: small;
+    padding: 1rem;
+}
