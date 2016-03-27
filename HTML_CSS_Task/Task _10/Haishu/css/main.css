@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    padding: 20px;
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    width: 148px;
+    border: solid 1px #f00;
+    order: 1;
+    margin-bottom: 20px;
+}
+
+#first {
+    height: 120px;
+}
+
+#second {
+    height: 100px;
+}
+
+#third {
+    height: 40px;
+}
+
+#forth {
+    height: 200px;
+    border-color: #0f0;
+}
+
+@media screen and (max-width: 640px){
+    #container {
+        align-items: flex-start;
+    }
+
+    #forth {
+        order: 0;
+    }
+}

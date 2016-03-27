@@ -1,0 +1,264 @@
+/*define rem*/
+html {
+    font-size: 20px;
+    color: #333333;
+    font-family: "Microsoft YaHei", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    html {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    html {
+        font-size: 68px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 90px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.clearFix {
+    overflow: auto;
+}
+
+header {
+    height: 1.5rem;
+    background-color: #6ec8e1;
+    color: #ffffff;
+    padding: 0.2rem 0.3rem;
+}
+
+header button {
+    font-size: 0.7rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.4rem;
+}
+
+header h1 {
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    height: 13rem;
+    overflow:hidden;
+    position: relative;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+    height: 1.8rem;
+    list-style-type: none;
+}
+
+nav label {
+    font-size: 0.7rem;
+    display: block;
+    text-align: center;
+    padding: 0.3rem 0;
+}
+
+nav input {
+    display: none;
+}
+
+nav img {
+    position: absolute;
+    top: 1.8em;
+    left: 0;
+    display: none;
+}
+
+nav input:checked ~ label {
+    height: 1.0rem;
+    border: solid #6ec8e1;
+    border-width: 0 0 0.2rem 0;
+}
+
+nav input:checked ~ img {
+    display: block;
+}
+
+section {
+    border: solid #e7e7f0;
+    border-width: 0 0 1rem 0;
+}
+
+#sec1-1 div {
+    width: 20%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    float: left;
+}
+
+#sec1-1 h1 {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+#sec1 > .divide {
+    margin: 0 0.5rem;
+    height: 0.08rem;
+    background-color: #e7e7f0;
+}
+
+#sec1-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#sec1-2 .content {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+#sec1-2 h1 {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+#sec1-2 h2 {
+    text-align: center;
+    font-size: 0.5rem;
+    color: #404040;
+}
+
+#sec1-2 .divide {
+    width: 0.08rem;
+    background-color: #e7e7f0;
+    margin: 0.5rem 0;
+}
+
+.sec2 {
+    padding: 0.5rem;
+}
+
+.sec2 h1 {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+}
+
+.sec2 .divide {
+    height: 0.08rem;
+    background-color: #e7e7f0;
+}
+
+.sec2 table {
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+.sec2 td {
+    border: solid 0.2rem #ffffff;
+    height: 1.5rem;
+}
+
+.sec2 .text {
+    background-color: #e7e7f0;
+    font-size: 0.5rem;
+    text-align: center;
+    width: 30%;
+}
+
+.sec2 .img {
+    background-color: transparent;
+    width: 20%;
+}
+
+.sec3 {
+    padding: 0 0.5rem;
+}
+
+.sec3 .divide {
+    height: 0.08rem;
+    background-color: #e7e7f0;
+}
+
+.sec3 .content {
+    padding: 0.5rem 0;
+}
+
+.sec3 img {
+    float: left;
+    width: 30%;
+    padding: 0.2rem;
+}
+
+.sec3 h1 {
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+}
+
+.sec3 p {
+    font-size: 0.5rem;
+    color: #999;
+}
