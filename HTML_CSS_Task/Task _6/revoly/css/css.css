@@ -1,0 +1,5 @@
+body{margin:0px;}
+.box{width:980px;height: 1386px;border: 1px;border-color:red;vertical-align: middle;margin-left: auto;margin-right: auto;bottom: 0px;}
+.header{width:892px;height:61px;vertical-align: middle;margin-right: auto;margin-left: auto; border-bottom: 2px;border-color:#938c8c; }
+.header .logo{width:110px;height: 61px;font-size:12px;font-family:"黑体";color:#fff;background-color: #d45d5c;float:left;}
+.header p {float:right;font-family:黑体;font-size:12px;color:#d45d5c;  position:relative;bottom: 0;}
